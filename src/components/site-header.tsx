@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logoAsset from "@/assets/IMG_5720.webp";
 import gaSailsLogo from "/ga-sails-logo.webp";
+import WhatsApp Image from "/WhatsApp Image 2026-08-15 at 2.58.15 PM.jpeg"
 
 const nav = [
   { to: "/", label: "Home" },
@@ -29,6 +30,12 @@ export function SiteHeader() {
             alt="GA Sails logo"
             className="h-14 w-auto object-contain sm:h-16"
           />
+          </Link>
+          <img
+            src={thirdLogoAsset}
+            alt="WhatsApp Image"
+           className="h-14 w-auto object-contain sm:h-16"
+  />
         </div>
 
         <nav className="hidden items-center gap-2 md:flex">
