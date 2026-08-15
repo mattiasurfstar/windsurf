@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logoAsset from "@/assets/IMG_5720.webp";
 import gaSailsLogo from "/ga-sails-logo.webp";
-// import terzoLogo from "@/assets/tuo-terzo-logo.webp"; // Sblocca e personalizza se usi un import
+import terzoLogo from "@/assets/WhatsApp Image 2026-08-15 at 2.58.15 PM.jpeg";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -31,7 +31,6 @@ export function SiteHeader() {
             className="h-14 w-auto object-contain sm:h-16"
           />
           <img
-            src="/terzo-logo.webp" // Metti qui il percorso o la variabile del tuo terzo logo
             alt="Terzo logo"
             className="h-14 w-auto object-contain sm:h-16"
           />
