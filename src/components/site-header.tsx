@@ -31,6 +31,7 @@ export function SiteHeader() {
             className="h-14 w-auto object-contain sm:h-16"
           />
           <img
+            src={terzoLogo}
             alt="Terzo logo"
             className="h-14 w-auto object-contain sm:h-16"
           />
