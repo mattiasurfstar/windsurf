@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logoAsset from "@/assets/IMG_5720.webp";
 import gaSailsLogo from "/ga-sails-logo.webp";
+// import terzoLogo from "@/assets/tuo-terzo-logo.webp"; // Sblocca e personalizza se usi un import
 
 const nav = [
   { to: "/", label: "Home" },
@@ -29,7 +30,12 @@ export function SiteHeader() {
             alt="GA Sails logo"
             className="h-14 w-auto object-contain sm:h-16"
           />
-        </div>
+          <img
+            src="/terzo-logo.webp" // Metti qui il percorso o la variabile del tuo terzo logo
+            alt="Terzo logo"
+            className="h-14 w-auto object-contain sm:h-16"
+          />
+        </div> {/* <--- ECCO IL DIV CHIUSO CORRETTAMENTE */}
 
         <nav className="hidden items-center gap-2 md:flex">
           {nav.map((item) => (
