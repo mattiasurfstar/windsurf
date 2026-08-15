@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHero } from "@/components/page-hero";
-import gearAsset from "@/assets/IMG_6278.webp";
+import gearAsset from "@/assets/WhatsApp Image 2026-08-15 at 2.57.41 PM-2.jpeg";
 import anchorage from "@/assets/anchorage.webp";
 import bookHero from "@/assets/book-hero.webp";
 

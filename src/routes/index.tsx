@@ -6,8 +6,8 @@ import cabin1Asset from "@/assets/IMG_0393.webp";
 import cabin2Asset from "@/assets/IMG_0395.webp";
 import layoutAsset from "@/assets/IMG_0396.webp";
 import crewAsset from "@/assets/DSC_1240.webp";
-import gearAsset from "@/assets/IMG_6278.webp";
-import gearRackAsset from "@/assets/IMG_6291.webp";
+import gearAsset from "@/assets/WhatsApp Image 2026-08-15 at 2.57.41 PM.jpeg";
+import gearRackAsset from "@/assets/wait.webp";
 
 const heroSplit = heroSplitAsset;
 const boat = boatAsset;
